@@ -1,0 +1,10 @@
+# Rahasia
+firms_key.txt
+
+# Dokumen pengumpulan (tidak dipublikasikan)
+*.pdf
+*.docx
+~$*
+
+# Jupyter
+.ipynb_checkpoints/

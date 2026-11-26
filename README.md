@@ -28,9 +28,14 @@ Data FIRMS hanya akan diunduh ulang jika file `data/firms_modis_YYYY.csv` dihapu
 
 ## Menjalankan
 ```bash
-pip install geopandas geoplot cartopy matplotlib mapclassify imageio requests
+git clone https://github.com/shortahairlover/indonesia-fire-poverty-map
+cd indonesia-fire-poverty-map
+pip install -r requirements.txt
 jupyter notebook NaufalRafifHidayat_103012300403_TugasGeospasial.ipynb
 ```
+Lalu pilih **Kernel → Restart & Run All**. Proses ini memakan waktu ±2 menit dan tidak membutuhkan API key maupun koneksi internet, karena semua data sudah ada di `data/`.
+
+**Google Colab:** upload seluruh isi repo (notebook, `requirements.txt`, folder `data/`), lalu aktifkan baris `!pip install -r requirements.txt` di sel setup sebelum menjalankan notebook.
 
 ---
 Tugas Sub-CLO-12-2-2, Visualisasi Data · Naufal Rafif Hidayat
